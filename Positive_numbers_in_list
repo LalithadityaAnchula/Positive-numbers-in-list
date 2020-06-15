@@ -1,0 +1,8 @@
+lst=input("Enter the integers for list by sepearting them with ',' : ")
+list,positive_list=lst.split(","),[]
+print("Input : "+"["+lst+"]")
+for i in list:
+    p=int(i)
+    if p>=0:
+        positive_list.append(p)
+print("Positive numbers in list : ",positive_list)
